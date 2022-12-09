@@ -29,11 +29,11 @@ Output classes are imbalance and undersampling is performed, so that the models 
 
 Before:
 
-![](images/data-distribution.jpeg)
+<img src="images/data-distribution.jpeg" alt="data distribution" width="300"/>
 
 After:
 
-![](images/data-distribution-after-undersampling.jpeg)
+<img src="images/data-distribution-after-undersampling.jpeg" alt="data distribution" width="300"/>
 
 #### Word Embedding Generation
 
@@ -72,15 +72,15 @@ Recursive feature elimination (RFE) is used to find the most important features.
 
 Cross validation on the training set is performed to find out the optimal value of hyperparameters for the different models.
 
-![](images/validation-curve-knn.jpeg)
+<img src="images/validation-curve-knn.jpeg" alt="validation-curve-knn" width="300"/>
 
 n_neighbors = 4
 
-![](images/validation-curve-dt.png)
+<img src="images/validation-curve-dt.png" alt="validation-curve-decision-tree" width="300"/>
 
 max_depth = 8
 
-![](images/validation%20curve-lr.jpeg)
+<img src="images/validation-curve-lr.jpeg" alt="validation-curve-logistic-regression" width="300"/>
 
 C = 1.0
 
